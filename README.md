@@ -8,7 +8,7 @@ This is an Image Stippling work I made which I am proud of when I was learning o
 It uses LodePNG library for PNG encoding and decoding. 
 
 ## Compiling in C++
-If you have a hypothetical your_program.cpp that #includes and uses lodepng.h, you can build as follows:
+You can build as follows:
 * For Uniform Sampling: `g++ -std=c++11 -o png_uniform.cpp lib/lodepng.cpp -Wall -Wextra -pedantic -ansi -O3` 
 
 * For Stratified Sampling: `g++ -std=c++11 -o png_stratified.cpp lib/lodepng.cpp -Wall -Wextra -pedantic -ansi -O3` 
