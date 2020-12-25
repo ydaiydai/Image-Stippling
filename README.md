@@ -12,5 +12,5 @@ You can build as follows:
 * For Uniform Sampling: `g++ -std=c++11 -o png_uniform.cpp lib/lodepng.cpp -Wall -Wextra -pedantic -ansi -O3` 
 
 * For Stratified Sampling: `g++ -std=c++11 -o png_stratified.cpp lib/lodepng.cpp -Wall -Wextra -pedantic -ansi -O3` 
-
+(For stratified sampling, a square image is required).
 
